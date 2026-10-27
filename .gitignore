@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+.env
+.ipynb_checkpoints/
+.pytest_cache/
+.vscode/
+.idea/
+.DS_Store
+# generated artifacts
+models/*.joblib
+data/sample/*.csv
+# raw dataset: do not commit (download it yourself, see data/README.md)
+data/raw/*.csv
